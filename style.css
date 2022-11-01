@@ -1,0 +1,119 @@
+.nav-in{
+                 border-radius: 17px;
+background: #424647;
+box-shadow:  -18px 18px 32px #2b2f32,
+             18px -18px 32px #2b2f32;
+}
+.btn{
+    border-radius: 10px;
+background: #424647;
+box-shadow:  1px 1px 5px #7f7575,
+             -1px -1px  0.3px #7f7575;
+}
+.imm{
+    display: none;
+
+}
+.top-about{
+    position: absolute;
+    right: 25px;
+}
+@media (min-width:1200px){
+    .top-about{
+        right: 100px;
+        transform: translateY(-15px);
+    }
+  
+}
+.underlinee{
+    text-decoration: underline #E0AA3E;
+    text-underline-offset: 0.6em;
+    padding: 0 0 4px;
+}
+@media  (min-width:900px) {
+    .imm{
+        display: block;
+    }
+}
+.cards{
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto ;
+    gap: 28px;
+    height:445px;
+}
+.card-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+
+}
+.card{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+    /* height: 200px; */
+}
+.skills{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto ;
+    gap:60px;
+    height: 220px;
+}
+.first-1{
+    height: 40px;
+    width: 300px;
+    /* border-radius: 20px; */
+}
+@media (min-width:200px) and (max-width:800px) {
+   
+    .naam{
+        font-size: small;
+    }
+    .top-about{
+        position: fixed;
+        bottom: 0;
+        left: 1px;
+        padding: 0 auto;
+    }
+    .cards{
+        margin-top: 25px;
+        display: grid;
+        grid-template-columns:auto   ;
+        grid-template-rows:auto  ;
+        gap: 20px;
+
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        width:260px ;
+    }
+    .cards{
+        height: 482px;
+    }
+    .skills{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        gap:12px;
+    }
+    .first-1{
+        height: 40px;
+        width: 250px;
+    }
+    .btn{
+        transform: translateX(20px);
+    }
+    .cnt-img{
+        /* width: 240px;
+        height: 200px; */
+    }
+}
