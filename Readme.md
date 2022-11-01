@@ -6,7 +6,7 @@
 
 ## Live Link
 
-[My Portfolio](https://portfolio-dp-1108.netlify.app/)
+[My Portfolio](https://myportfolio-dp1108.netlify.app/)
 
 ## Preview
 
