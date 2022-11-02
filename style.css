@@ -20,7 +20,7 @@ box-shadow:  1px 1px 5px #7f7575,
 }
 @media (min-width:1200px){
     .top-about{
-        right: 100px;
+/*         right: 100px; */
 /*         transform: translateY(-15px); */
     }
   
